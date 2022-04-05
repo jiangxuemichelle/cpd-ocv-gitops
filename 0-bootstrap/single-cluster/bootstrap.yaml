@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: 0-bootstrap/single-cluster
-    repoURL: https://github.com/nickmerrett/cpd-ocv-gitops.git
+    repoURL: https://github.com/jiangxuemichelle/cpd-ocv-gitops.git
     targetRevision: main 
   syncPolicy:
     automated:

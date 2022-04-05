@@ -108,7 +108,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/nickmerrett/cpd-ocv-services-gitops.git
+      value: https://github.com/jiangxuemichelle/cpd-ocv-services-gitops.git
     - op: add
       path: /spec/source/targetRevision
       value: main
@@ -119,7 +119,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/nickmerrett/multi-tenancy-gitops-apps.git
+      value: https://github.com/jiangxuemichelle/multi-tenancy-gitops-apps.git
     - op: add
       path: /spec/source/targetRevision
       value: main 
