@@ -30,11 +30,11 @@ resources:
 - argocd/operators/ibm-cpd-platform-operator.yaml
 - argocd/instances/ibm-cpd-instance.yaml
 - argocd/operators/ibm-cpd-ws-operator.yaml
-#- argocd/instances/ibm-cpd-ws-instance.yaml
-#- argocd/operators/ibm-match360-mdm-operator.yaml
+- argocd/instances/ibm-cpd-ws-instance.yaml
+- argocd/operators/ibm-match360-mdm-operator.yaml
 #- argocd/instances/ibm-match360-mdm-instance.yaml
 - argocd/operators/ibm-cpd-wkc-operator.yaml
-#- argocd/instances/ibm-cpd-wkc-instance.yaml
+- argocd/instances/ibm-cpd-wkc-instance.yaml
 #- argocd/operators/ibm-cpd-ds-operator.yaml
 #- argocd/instances/ibm-cpd-ds-instance.yaml
 
@@ -43,10 +43,10 @@ resources:
 #- argocd/instances/ibm-cp4sthreatmanagements-instance.yaml
 
 ## IBM Foundational Services / Common Services
-- argocd/operators/ibm-foundations.yaml
-- argocd/instances/ibm-foundational-services-instance.yaml
-- argocd/operators/ibm-automation-foundation-core-operator.yaml
-- argocd/operators/ibm-automation-foundation-operator.yaml
+#- argocd/operators/ibm-foundations.yaml
+#- argocd/instances/ibm-foundational-services-instance.yaml
+#- argocd/operators/ibm-automation-foundation-core-operator.yaml
+#- argocd/operators/ibm-automation-foundation-operator.yaml
 #- argocd/operators/ibm-license-service-operator.yaml
 #- argocd/instances/ibm-license-service-instance.yaml
 
